@@ -27,4 +27,36 @@
     background-color: #fff;
     border-radius: 70px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 70px;
+    margin: 40px auto 37px;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 18px auto;
+}
+
+span {
+    font-size: 35px;
+}
+
+.row input {
+    width: 100%;
+    max-width: 600px;
+    height: 100px;
+    background-color: #d9d9d9;
+    outline: none;
+    border: none;
+    font-size: 40px;
+    border-radius: 50px;
+    padding-left: 20px;
 }
